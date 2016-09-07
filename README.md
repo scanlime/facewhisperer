@@ -1,5 +1,5 @@
 FaceWhisperer
--------------
+=============
 
 FaceWhisperer is a hardware add-on for the [ChipWhisperer](https://newae.com/tools/chipwhisperer/) side-channel analysis tool, for working with devices that primarily communicate over USB. The goal is to create a USB host controller scripted with an experiment, all running totally synchronous with the target. This should give predictable timing each time the experiment is run from a target reset.
 
@@ -15,6 +15,11 @@ This project is a quick hack that builds on the work and inspiration of several 
 - [ChipWhisperer](https://newae.com/tools/chipwhisperer)
 - [Xmegaduino](https://github.com/Xmegaduino/Xmegaduino)
 - [Arduino USB Host Shield library](https://github.com/felis/USB_Host_Shield_2.0)
+
+This repository includes the hardware design itself, as well as a firmware framework and scripts to integrate with ChipWhisperer.
+
+<img alt="Prototype PCB, rev A" src="http://i.imgur.com/cdOqJJ2.jpg" width="100%" >
+
 
 Hardware Errata
 ---------------
