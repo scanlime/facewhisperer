@@ -1,0 +1,4 @@
+site: https://www.youtube.com/watch?v=TeCQatNcF20
+color: yellow
+bom: pcb/1-click-bom.tsv
+gerbers: pcb/gerbers
